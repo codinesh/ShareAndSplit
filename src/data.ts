@@ -3,22 +3,16 @@ import { INavigationItem } from './types/INavigationItem'
 
 const navigation: INavigationItem[] = [
   {
-    name: 'Home',
-    pageTitle: 'Home',
+    name: 'Products',
+    pageTitle: 'Products',
     icon: OfficeBuildingIcon,
     path: '/',
   },
   {
-    name: 'Organizer',
-    pageTitle: 'Home',
+    name: 'Friends',
+    pageTitle: 'Friends',
     icon: UserIcon,
-    path: '/organizer',
-  },
-  {
-    name: 'Subscriber',
-    pageTitle: 'Home',
-    icon: UserIcon,
-    path: '/subscriber',
+    path: '/friends',
   },
 ]
 
